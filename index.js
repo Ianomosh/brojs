@@ -43,9 +43,24 @@ document.getElementById(`email`).textContent = `iananyona2@gmail.com`;
 // document.getElementById(`p3`).textContent =
 //   `It is ${student} to say that i am a sudent`;
 
-const students = 30;
+// let students = 30;
 
-students = students * 2;
-students = students / 2;
+// // students = students * 2;
+// // students = students / 2;
+// // const extraStudent = students % 3;
 
-console.log(students);
+// students += 1;
+
+// console.log(students);
+
+// Accepting user input
+// let userNmae = window.prompt(`whats your username`);
+
+// console.log(userNmae);
+
+let username;
+
+document.getElementById(`mySubmit`).onclick = function () {
+  username = document.getElementById(`myText`).value;
+  console.log(username);
+};

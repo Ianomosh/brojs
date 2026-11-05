@@ -6,8 +6,28 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3em;
+  margin: 30px;
 }
 
 #myH1 {
   color: brown;
+}
+
+#myText {
+  border: none;
+  width: 300px;
+  height: 40px;
+  position: relative;
+  top: -10px;
+  background-color: #00ffff;
+  border-radius: 10px;
+}
+
+#mySubmit {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #0000ff;
+  color: #ffe4c4;
 }
